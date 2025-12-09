@@ -2,8 +2,9 @@ import os
 
 print("another script")
 
-def test_func():
+def test_func(dir_path = os.getcwd()):
     print("Hello World")
+    tester2(dir_path)
 
 def tester2(dir_path):
     print(f"cwd : {os.getcwd()}")
