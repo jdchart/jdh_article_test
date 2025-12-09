@@ -1,3 +1,0 @@
-#!/bin/bash
-chmod +x bin/flucoma/*
-echo "export PATH=\$PATH:$(pwd)/bin/flucoma" >> ~/.bashrc
