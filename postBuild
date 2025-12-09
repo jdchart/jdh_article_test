@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "TEST TEST"
+chmod +x bin/flucoma/*
+echo "export PATH=\$PATH:$(pwd)/bin/flucoma" >> ~/.bashrc
