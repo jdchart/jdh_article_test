@@ -26,6 +26,6 @@ def wav_spill(file_path):
 def slicer_test(source):
     create_temp()
     result_file_name = os.path.join(os.getcwd(), ".temp", f"{str(uuid.uuid4())}.wav")
-    subprocess.run(["fluid-onsetslice", "-source", source, "-indices", result_file_name])
+    subprocess.run([os.path.join(os.getcwd(), "script", "flucoma-cli", "fluid-onsetslice"), "-source", source, "-indices", result_file_name])
     result = wav_spill(result_file_name)
     return result
