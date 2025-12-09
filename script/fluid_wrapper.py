@@ -6,6 +6,7 @@ import subprocess
 
 def init_fluid():
     make_executable(os.path.join(os.getcwd(), "script", "flucoma-cli", "fluid-mfcc"))
+    make_executable(os.path.join(os.getcwd(), "script", "flucoma-cli", "fluid-onsetslice"))
 
 def make_executable(file_path):
     if os.path.isfile(file_path):
