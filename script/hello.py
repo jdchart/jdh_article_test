@@ -1,1 +1,2 @@
- print("Hello World")
+def test_func():
+    print("Hello World")
