@@ -1,8 +1,8 @@
 import os
 
-print("another script")
+print("loading")
 
-def test_func(dir_path = os.getcwd()):
+def new_func(dir_path = os.getcwd()):
     print("Hello World")
     tester2(dir_path)
 
